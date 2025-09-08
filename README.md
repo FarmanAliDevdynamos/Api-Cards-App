@@ -1,16 +1,28 @@
-# mvvm_posts_app
 
-A new Flutter project.
+# API Cards App (Flutter MVVM)
+
+A Flutter app that fetches posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) and displays them as styled cards using **MVVM architecture**.
+
+## Features
+- Fetch posts with pagination (10 at a time)
+- Loading (shimmer), error (retry), and empty states
+- Infinite scroll support
+- Clean MVVM folder structure
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+git clone https://github.com/FarmanAliDevdynamos/Api-Cards-App.git
+cd Api-Cards-App
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter / Dart
+* Provider (state management)
+* HTTP (API calls)
+
+
+
+
